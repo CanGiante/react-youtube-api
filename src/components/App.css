@@ -1,0 +1,26 @@
+.ui.container{
+    background-color: aqua;
+    min-height: 100vh;
+}
+
+p {
+    overflow: hidden;
+    display: -webkit-box;
+    -webkit-line-clamp: 5;
+    -webkit-box-orient: vertical;
+    overflow-block: auto;
+    -ms-overflow-style: none; /* IE and Edge */
+    scrollbar-width: none; /* Firefox */
+
+    word-break: break-word;
+
+    -webkit-hyphens: auto;
+    -ms-hyphens: auto;
+    hyphens: auto;
+}
+
+/*p::-webkit-scrollbar {*/
+
+/*    display: none;*/
+
+/*}*/
